@@ -1,0 +1,37 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python caches & envs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Editors / IDE
+.vscode/
+.idea/
+
+# Data (keep raw/private data out of the repo)
+data/*
+!data/README.md
+
+# Figures & temp outputs (optional)
+plots/
+*.log
+
+# NOTE: Kaggle submission CSVs saved at the project root are intentionally NOT ignored.
+# submission_model1_enet_subset.csv
+# submission_model2_pcr.csv
